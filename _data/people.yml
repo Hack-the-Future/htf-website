@@ -5,6 +5,8 @@
       year: 2020
     - role: Advisor
       year: 2021
+    - role: Advisor
+      year: 2022
 - id: victoria-liu
   name: Victoria Liu
   roles:
@@ -12,6 +14,8 @@
       year: 2020
     - role: Advisor
       year: 2021
+    - role: Advisor
+      year: 2022
 - id: allen-zheng
   name: Allen Zheng
   roles:
@@ -47,33 +51,47 @@
   roles:
     - role: President
       year: 2021
+    - role: President
+      year: 2022
 - id: clayton-dunavant
   name: Clayton Dunavant
   roles:
     - role: Vice-President
       year: 2021
+    - role: Vice-President
+      year: 2022
 - id: rebecca-williams
   name: Rebecca Williams
   roles:
     - role: Multimedia Officer
       year: 2021
+    - role: Multimedia Officer
+      year: 2022
 - id: rohan
   name: Rohan
   roles:
     - role: Webmaster
       year: 2021
+    - role: Webmaster
+      year: 2022
 - id: pankaj-meghani
   name: Pankaj Meghani
   roles:
     - role: Secretary
       year: 2021
+    - role: Secretary
+      year: 2022
 - id: sahithi-tummala
   name: Sahithi Tummala
   roles:
     - role: PR Officer
       year: 2021
+    - role: PR Officer
+      year: 2022
 - id: oliver-miller
   name: Oliver Miller
   roles:
     - role: Treasurer
       year: 2021
+    - role: Treasurer
+      year: 2022
