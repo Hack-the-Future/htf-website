@@ -15,11 +15,6 @@ and more read the
 
 The site is built using [GitHub Pages](https://pages.github.com/).
 
-### Removal
-
-To remove the website, delete the DNS record and terminate the EC2 instance and
-IP.
-
 ## License
 
 Licensed under the terms of the [LICENSE](./LICENSE) file.
