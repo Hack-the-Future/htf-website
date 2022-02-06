@@ -1,0 +1,79 @@
+- id: nguyen-do
+  name: Nguyen Do
+  roles:
+    - role: President
+      year: 2020
+    - role: Advisor
+      year: 2021
+- id: victoria-liu
+  name: Victoria Liu
+  roles:
+    - role: Vice-President
+      year: 2020
+    - role: Advisor
+      year: 2021
+- id: allen-zheng
+  name: Allen Zheng
+  roles:
+    - role: Multimedia Officer
+      year: 2020
+- id: christopher-lin
+  name: Christopher Lin
+  roles:
+    - role: Co-Webmaster
+      year: 2020
+- id: jasmine-singh
+  name: Jasmine Singh
+  roles:
+    - role: Co-Webmaster
+      year: 2020
+- id: kaitlyn-tran
+  name: Kaitlyn Tran
+  roles:
+    - role: Secretary
+      year: 2020
+- id: liam-rowe
+  name: Liam Rowe
+  roles:
+    - role: PR Officer
+      year: 2020
+- id: nathan-ashta
+  name: Nathan Ashta
+  roles:
+    - role: Treasurer
+      year: 2020
+- id: reece-fleck
+  name: Reece Fleck
+  roles:
+    - role: President
+      year: 2021
+- id: clayton-dunavant
+  name: Clayton Dunavant
+  roles:
+    - role: Vice-President
+      year: 2021
+- id: rebecca-williams
+  name: Rebecca Williams
+  roles:
+    - role: Multimedia Officer
+      year: 2021
+- id: rohan
+  name: Rohan
+  roles:
+    - role: Webmaster
+      year: 2021
+- id: pankaj-meghani
+  name: Pankaj Meghani
+  roles:
+    - role: Secretary
+      year: 2021
+- id: sahithi-tummala
+  name: Sahithi Tummala
+  roles:
+    - role: PR Officer
+      year: 2021
+- id: oliver-miller
+  name: Oliver Miller
+  roles:
+    - role: Treasurer
+      year: 2021

@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(?:www\.)?htfpurdue.(?:net)|(?:com)$ [NC]
+RewriteRule ^ https://htfpurdue.org%{REQUEST_URI} [R=301,L]

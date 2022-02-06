@@ -1,0 +1,31 @@
+{% assign nonprofit = site.data.nonprofits | where: "id", project.nonprofit | first %}
+
+<div class="htf-item">
+    <div class="htf-item-data">
+        <div class="htf-item-data-info">
+            {% if project.website contains "example.com" %}
+            <b>{{ project.name }}</b>
+            {% else %}
+            <a href="{{ project.website }}">{{ project.name }}</a>
+            {% endif %}
+            <br>
+            <small style="margin-top: 0;">{{ project.description }}</small>
+        </div>
+        <div class="htf-item-data-image">
+            {% assign fname = project.id | prepend: "/assets/images/projects/" | append: ".png" %}
+            {% assign found = site.static_files | where: "path", fname | size %}
+            {% if found > 0 %}
+            <img src="{{ fname }}" />
+            {% else %}
+            <img src="/assets/images/other/default.png" />
+            {% endif %}
+        </div>
+    </div>
+    <hr>
+    <div class="htf-item-note">
+        <small>
+            Developed for
+            <a href="{{ nonprofit.website }}" title="{{ project.nonprofit_description }}">{{ nonprofit.name }}</a>
+        </small>
+    </div>
+</div>

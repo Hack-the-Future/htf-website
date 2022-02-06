@@ -1,0 +1,30 @@
+- id: jessies-kids-foundation
+  name: Jessie's Kids Foundation
+  description:
+    Jessie’s Kids Foundation is a Lafayette-based nonprofit that supports the
+    youth of Tippecanoe County by providing funding for educational,
+    recreational, and family support programs.
+  website: http://www.jessieskidsfoundation.org
+- id: homesteadcs
+  name: HomesteadCS
+  description:
+    Homestead CS is a nonprofit dedicated to providing education and consulting
+    assistance to all homeowners and potential homeowners regardless of personal
+    income. Its mission is to increase affordable, sustainable housing
+    opportunities.
+  website: http://www.homesteadcs.org
+- id: niches-land-trust
+  name: NICHES Land Trust
+  description:
+    NICHES Land Trust is an Indiana nonprofit that engages to protect a broad
+    array of natural areas ranging from small green spaces to pristine nature
+    preserves of high biological integrity.
+  website: http://www.nicheslandtrust.org
+- id: lafayette-breakfast-optimist-club
+  name: Lafayette Breakfast Optimist Club
+  description:
+    The Lafayette Breakfast Optimist Club is a voluntary organization of
+    civic-minded men and women who meet to further action in community service.
+    It aims to sponsor programs that educate the youth, develop character
+    through projects, and encourage good citizenship.
+  website: http://www.lafayetteoptimist.org

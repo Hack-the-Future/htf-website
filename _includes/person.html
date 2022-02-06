@@ -1,0 +1,18 @@
+<div class="htf-item">
+    <div class="htf-item-data">
+        <div class="htf-item-data-info">
+            <b>{{ person.name }}</b>
+            <br>
+            <small style="margin-top: 0;">{{ period.role }}</small>
+        </div>
+        <div class="htf-item-data-image">
+            {% assign fname = person.id | prepend: "/assets/images/people/" | append: ".jpg" %}
+            {% assign found = site.static_files | where: "path", fname | size %}
+            {% if found > 0 %}
+            <img src="{{ fname }}" />
+            {% else %}
+            <img src="/assets/images/other/user.png" />
+            {% endif %}
+        </div>
+    </div>
+</div>

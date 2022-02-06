@@ -1,0 +1,34 @@
+- id: jessies-kids-foundation
+  name: Jessie's Kids Foundation
+  description:
+    In the past, Jessie’s Kids Foundation used a paper-based funds allocation
+    system, that was slow, inefficient, and expensive. We created an online
+    system where the funds can be requested and approved by members of the
+    foundation.
+  website: https://example.com
+  nonprofit: jessies-kids-foundation
+- id: homesteadcs
+  name: HomesteadCS
+  description:
+    This nonprofit was having a hard time managing the stories of their clients
+    for their website. Therefore, we stepped in and created an online story
+    management system for their website.
+  website: https://example.com
+  nonprofit: homesteadcs
+- id: niches-land-trust
+  name: NICHES Land Trust
+  description:
+    To help their goal of protecting natural areas, we were tasked to create a
+    mobile application where users can view Niches’ parks and take self-guided
+    tours on the trails. The app also displayed information for landmarks along
+    the trails to make the tours interesting.
+  website: https://example.com
+  nonprofit: niches-land-trust
+- id: lafayette-breakfast-optimist-club
+  name: Lafayette Breakfast Optimist Club
+  description:
+    The organization needed a better way to manage its Poinsettia sales
+    fundraiser. Therefore, we created a web application where volunteers could
+    easily access customer orders and log customer information.
+  website: https://example.com
+  nonprofit: lafayette-breakfast-optimist-club

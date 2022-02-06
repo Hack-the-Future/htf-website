@@ -1,0 +1,46 @@
+p,
+b,
+i,
+small {
+    word-break: normal;
+}
+
+.htf-item {
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 2px solid lightgray;
+}
+
+.htf-item a {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.htf-item-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.htf-item-data-info {
+    margin: 0.5rem;
+    width: 75%;
+}
+
+.htf-item-data-info>a,
+b {
+    font-weight: bold;
+}
+
+.htf-item-data-image {
+    margin: 0.5rem;
+}
+
+.htf-item-data-image img {
+    width: 8rem;
+}
+
+.htf-item-note {
+    margin: 0.5rem;
+}

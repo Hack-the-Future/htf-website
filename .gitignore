@@ -1,0 +1,8 @@
+.jekyll-cache/
+.sass-cache/
+.vscode/
+
+_site/
+
+Gemfile.lock
+s3_website.yml
