@@ -42,6 +42,6 @@ jobs:
           rm -rf $(ls -I deploy.tar)
           tar xf deploy.tar && rm deploy.tar
           mv jekyll/* . && rm -rf jekyll/
-          bundle install
+          bundle install --path ~/.gem
           JEKYLL_ENV=production jekyll build
           rm * && mv _site/* . && rm -rf _site/
