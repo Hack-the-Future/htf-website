@@ -22,9 +22,9 @@ jobs:
 
     - name: Tar site
       run: |
-        mkdir ../build
-        cp -TR  ${{ github.workspace }}/_site ../build
-        tar -cvf deploy.tar ../build/
+        mkdir ../jekyll
+        cp -TR  . ../jekyll
+        tar -cvf deploy.tar ../jekyll/
     
     - name: Copy result to server
       uses: appleboy/scp-action@master
@@ -36,7 +36,7 @@ jobs:
         source: "deploy.tar"
         target: "/var/www/html"
     
-    - name: Extract site files
+    - name: Extract site files and build
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
@@ -44,4 +44,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /var/www/html
-          tar xf deploy.tar && rm deploy.tar && mv build/* . && rm -rf build/
+          tar xf deploy.tar && rm deploy.tar
+          mv jekyll/* . && rm -rf jekyll/
+          JEKYLL_ENV=production jekyll build
+          rm * && mv _site/* . && rm -rf _site/
