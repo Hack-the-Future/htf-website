@@ -39,6 +39,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /var/www/html
+          rm -rf *
           tar xf deploy.tar && rm deploy.tar
           mv jekyll/* . && rm -rf jekyll/
           JEKYLL_ENV=production jekyll build
