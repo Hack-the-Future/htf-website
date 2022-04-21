@@ -43,5 +43,5 @@ jobs:
           tar xf deploy.tar && rm deploy.tar
           mv jekyll/* . && rm -rf jekyll/
           bundle install --path ~/.gem
-          JEKYLL_ENV=production jekyll build
+          JEKYLL_ENV=production bundle exec jekyll build
           rm * && mv _site/* . && rm -rf _site/
