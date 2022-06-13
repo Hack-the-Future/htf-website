@@ -1,34 +1,56 @@
 - id: jessies-kids-foundation
+  year: 2020
+  nonprofit: jessies-kids-foundation
   name: Jessie's Kids Foundation
+  website: https://example.com
   description:
     In the past, Jessie’s Kids Foundation used a paper-based funds allocation
     system, that was slow, inefficient, and expensive. We created an online
     system where the funds can be requested and approved by members of the
     foundation.
+- id: homesteadcs-stories
+  year: 2020
+  name: HomesteadCS Stories
+  nonprofit: homesteadcs
   website: https://example.com
-  nonprofit: jessies-kids-foundation
-- id: homesteadcs
-  name: HomesteadCS
   description:
     This nonprofit was having a hard time managing the stories of their clients
     for their website. Therefore, we stepped in and created an online story
     management system for their website.
-  website: https://example.com
+- id: homesteadcs-grant
+  year: 2021
+  name: HomesteadCS Grant
   nonprofit: homesteadcs
+  website: https://example.com
+  description: Placeholder
 - id: niches-land-trust
+  year: 2020
+  nonprofit: niches-land-trust
   name: NICHES Land Trust
+  website: https://example.com
   description:
     To help their goal of protecting natural areas, we were tasked to create a
     mobile application where users can view Niches’ parks and take self-guided
     tours on the trails. The app also displayed information for landmarks along
     the trails to make the tours interesting.
-  website: https://example.com
-  nonprofit: niches-land-trust
 - id: lafayette-breakfast-optimist-club
+  year: 2020
+  nonprofit: lafayette-breakfast-optimist-club
   name: Lafayette Breakfast Optimist Club
+  website: https://example.com
   description:
     The organization needed a better way to manage its Poinsettia sales
     fundraiser. Therefore, we created a web application where volunteers could
     easily access customer orders and log customer information.
+- id: lthc-placeholder
+  year: 2021
+  nonprofit: lthc
+  name: LTHC
   website: https://example.com
-  nonprofit: lafayette-breakfast-optimist-club
+  description: Placeholder
+- id: leadership-lafayette-placeholder
+  year: 2021
+  nonprofit: leadership-lafayette
+  name: Leadership Lafayette - Placeholder
+  website: https://example.com
+  description: Placeholder
