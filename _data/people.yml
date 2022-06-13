@@ -54,20 +54,6 @@
       year: 2021
     - role: President
       year: 2022
-- id: rebecca-williams
-  name: Rebecca Williams
-  roles:
-    - role: Multimedia Officer
-      year: 2021
-    - role: Secretary
-      year: 2022
-- id: rohan
-  name: Rohan
-  roles:
-    - role: Webmaster
-      year: 2021
-    - role: Technical Advisor
-      year: 2022
 - id: pankaj-meghani
   name: Pankaj Meghani
   roles:
@@ -83,23 +69,37 @@
   roles:
     - role: Treasurer
       year: 2021
-- id: allison-kramp
-  name: Allison Kramp
-  roles:
-    - role: Treasurer
-      year: 2022
 - id: juan-diaz
   name: Juan Diaz
   roles:
     - role: Vice-President
       year: 2022
-- id: jonathan-maskew
-  name: Jonathan Maskew
+- id: rebecca-williams
+  name: Rebecca Williams
   roles:
-    - role: Design Director
+    - role: Multimedia Officer
+      year: 2021
+    - role: Secretary
+      year: 2022
+- id: allison-kramp
+  name: Allison Kramp
+  roles:
+    - role: Treasurer
+      year: 2022
+- id: rohan
+  name: Rohan
+  roles:
+    - role: Webmaster
+      year: 2021
+    - role: Technical Advisor
       year: 2022
 - id: jacob-zhang
   name: Jacob Zhang
   roles:
     - role: Technical Director
+      year: 2022
+- id: jonathan-maskew
+  name: Jonathan Maskew
+  roles:
+    - role: Design Director
       year: 2022
