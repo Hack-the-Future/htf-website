@@ -1,42 +1,38 @@
 - id: jessies-kids-foundation
   name: Jessie's Kids Foundation
+  website: http://www.jessieskidsfoundation.org
   description:
     Jessie’s Kids Foundation is a Lafayette-based nonprofit that supports the
     youth of Tippecanoe County by providing funding for educational,
     recreational, and family support programs.
-  website: http://www.jessieskidsfoundation.org
 - id: homesteadcs
   name: HomesteadCS
+  website: http://www.homesteadcs.org
   description:
     Homestead CS is a nonprofit dedicated to providing education and consulting
     assistance to all homeowners and potential homeowners regardless of personal
     income. Its mission is to increase affordable, sustainable housing
     opportunities.
-  website: http://www.homesteadcs.org
 - id: niches-land-trust
   name: NICHES Land Trust
+  website: http://www.nicheslandtrust.org
   description:
     NICHES Land Trust is an Indiana nonprofit that engages to protect a broad
     array of natural areas ranging from small green spaces to pristine nature
     preserves of high biological integrity.
-  website: http://www.nicheslandtrust.org
 - id: lafayette-breakfast-optimist-club
   name: Lafayette Breakfast Optimist Club
+  website: http://www.lafayetteoptimist.org
   description:
     The Lafayette Breakfast Optimist Club is a voluntary organization of
     civic-minded men and women who meet to further action in community service.
     It aims to sponsor programs that educate the youth, develop character
     through projects, and encourage good citizenship.
-  website: http://www.lafayetteoptimist.org
 - id: lthc
   name: LTHC
-  description:
-    LTHC is a nonprofit that provides resources to address the housing crisis in Lafayette.
-  website: http://www.example.com
+  website: http://www.lthc.net
+  description: LTHC is a nonprofit that provides resources to address the housing crisis in Lafayette.
 - id: leadership-lafayette
   name: Leadership Lafayette
-  description:
-    Leadership Lafayette is a local nonprofit that develops individuals through experiential learning and community engagement to promote servant leadership.
-  website: http://www.example.com
-
-
+  website: http://leadershiplafayette.org/
+  description: Leadership Lafayette is a local nonprofit that develops individuals through experiential learning and community engagement to promote servant leadership.
