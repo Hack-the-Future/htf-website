@@ -4,53 +4,55 @@
   name: Jessie's Kids Foundation
   website: https://example.com
   description:
-    In the past, Jessie’s Kids Foundation used a paper-based funds allocation
-    system, that was slow, inefficient, and expensive. We created an online
-    system where the funds can be requested and approved by members of the
-    foundation.
+    In the past, Jessie’s Kids Foundation used a paper-based funds allocation system, that was slow, inefficient, and expensive.
+    We created an online system where the funds can be requested and approved by members of the foundation.
 - id: homesteadcs-stories
   year: 2020
   name: HomesteadCS Stories
   nonprofit: homesteadcs
   website: https://example.com
   description:
-    This nonprofit was having a hard time managing the stories of their clients
-    for their website. Therefore, we stepped in and created an online story
-    management system for their website.
+    This nonprofit was having a hard time managing the stories of their clients for their website.
+    Therefore, we stepped in and created an online story management system for their website.
 - id: homesteadcs-grant
   year: 2021
   name: HomesteadCS Grant
   nonprofit: homesteadcs
-  website: https://example.com
-  description: Placeholder
+  website: https://hcs-grant.htfpurdue.org/
+  description:
+    HomesteadCS had a tough time keeping track of what they promised to use their grants for so they reached out to us for a solution.
+    We developed a web-based Grant Management software where the resources from Grant’s could be managed to ensure promises were kept.
 - id: niches-land-trust
   year: 2020
   nonprofit: niches-land-trust
   name: NICHES Land Trust
   website: https://example.com
   description:
-    To help their goal of protecting natural areas, we were tasked to create a
-    mobile application where users can view Niches’ parks and take self-guided
-    tours on the trails. The app also displayed information for landmarks along
-    the trails to make the tours interesting.
+    To help their goal of protecting natural areas, we were tasked to create a mobile application where users can view Niches’ parks and take self-guided tours on the trails.
+    The app also displayed information for landmarks along the trails to make the tours interesting.
 - id: lafayette-breakfast-optimist-club
   year: 2020
   nonprofit: lafayette-breakfast-optimist-club
   name: Lafayette Breakfast Optimist Club
   website: https://example.com
   description:
-    The organization needed a better way to manage its Poinsettia sales
-    fundraiser. Therefore, we created a web application where volunteers could
-    easily access customer orders and log customer information.
-- id: lthc-placeholder
+    The organization needed a better way to manage its Poinsettia sales fundraiser.
+    Therefore, we created a web application where volunteers could easily access customer orders and log customer information.
+- id: lthc-housing-crisis-portal
   year: 2021
   nonprofit: lthc
-  name: LTHC
-  website: https://example.com
-  description: Placeholder
-- id: leadership-lafayette-placeholder
+  name: LTHC Housing Crisis Portal
+  website: https://lthc.htfpurdue.org/
+  description:
+    LTHC reached out to us needing a centralized place to store all of their housing information for people in the midst of a crisis.
+    Everything is presented on one page in a user-friendly format in order to get the information that people need as fast as possible.
+    On the backend, the portal is configured with a text document allowing for easy maintenance by LTHC themselves.
+- id: leadership-lafayette
   year: 2021
   nonprofit: leadership-lafayette
-  name: Leadership Lafayette - Placeholder
-  website: https://example.com
-  description: Placeholder
+  name: Leadership Lafayette Storyboard
+  website: https://ll-storyboard.htfpurdue.org/
+  description:
+    Leadership Lafayette needed to aggregate the stories of their alumni so we created the Storyboard.
+    Crafted with reusability in mind, this project is a versatile client feedback portal.
+    This project collects, organizes, and presents alumni stories in an easy-to-read and secure format.

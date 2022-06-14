@@ -28,3 +28,15 @@
     It aims to sponsor programs that educate the youth, develop character
     through projects, and encourage good citizenship.
   website: http://www.lafayetteoptimist.org
+- id: lthc
+  name: LTHC
+  description:
+    LTHC is a nonprofit that provides resources to address the housing crisis in Lafayette.
+  website: http://www.example.com
+- id: leadership-lafayette
+  name: Leadership Lafayette
+  description:
+    Leadership Lafayette is a local nonprofit that develops individuals through experiential learning and community engagement to promote servant leadership.
+  website: http://www.example.com
+
+
