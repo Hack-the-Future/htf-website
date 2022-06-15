@@ -31,8 +31,13 @@
 - id: lthc
   name: LTHC
   website: http://www.lthc.net
-  description: LTHC is a nonprofit that provides resources to address the housing crisis in Lafayette.
+  description:
+    LTHC is a nonprofit that provides resources to address the housing crisis in
+    Lafayette.
 - id: leadership-lafayette
   name: Leadership Lafayette
   website: http://leadershiplafayette.org/
-  description: Leadership Lafayette is a local nonprofit that develops individuals through experiential learning and community engagement to promote servant leadership.
+  description:
+    Leadership Lafayette is a local nonprofit that mentors individuals through
+    experiential learning and community engagement to promote servant
+    leadership.
