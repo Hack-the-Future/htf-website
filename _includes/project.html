@@ -2,15 +2,6 @@
 
 <div class="htf-item">
     <div class="htf-item-data">
-        <div class="htf-item-data-info">
-            {% if project.website contains "example.com" %}
-            <b>{{ project.name }}</b>
-            {% else %}
-            <a href="{{ project.website }}">{{ project.name }}</a>
-            {% endif %}
-            <br>
-            <small style="margin-top: 0;">{{ project.description }}</small>
-        </div>
         <div class="htf-item-data-image">
             {% assign fname = project.id | prepend: "/assets/images/projects/" | append: ".png" %}
             {% assign found = site.static_files | where: "path", fname | size %}
@@ -20,6 +11,34 @@
             <img src="/assets/images/nonprofits/{{ project.nonprofit }}.png" />
             {% endif %}
         </div>
+        <div class="htf-item-data-info">
+            {% if project.website contains "example.com" %}
+            <b>{{ project.name }}</b>
+            {% else %}
+            <a href="{{ project.website }}">{{ project.name }}</a>
+            {% endif %}
+            <br>
+            <small style="margin-top: 0;">{{ project.description }}</small>
+        </div>
+        {% comment %} Up to 10 screenshots are allowed {% endcomment %}
+        {% assign num_screenshots = 0 %}
+        {% for i in (1..10) %}
+            {% assign fname = project.id | prepend: "/assets/images/projects/" | append: "-" | append: i | append: ".png" %}
+            {% assign found = site.static_files | where: "path", fname | size %}
+
+            {% if found > 0 %}
+
+            {% if num_screenshots == 0 %}
+            <small style="margin-top: 0.5rem;">Screenshots</small>
+            {% endif %}
+
+            {% capture _ %}{% increment num_screenshots %}{% endcapture %}
+
+            <div class="htf-item-data-screenshots">
+                <img src="{{ fname }}" />
+            </div>
+            {% endif %}
+        {% endfor %}
     </div>
     <hr>
     <div class="htf-item-note">

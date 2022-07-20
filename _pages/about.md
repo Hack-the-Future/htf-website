@@ -17,7 +17,7 @@ learning, and social aspects.
 
 {% assign year = "now" | date: "%Y" | plus: 0 %}
 
-<!-- Include current members only !-->
+{% comment %} Include current members only {% endcomment %}
 {% for person in site.data.people %}
 {% assign period = person.roles | where: "year", year | first %}
 {% if period %}
