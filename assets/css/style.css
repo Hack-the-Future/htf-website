@@ -50,10 +50,10 @@ b {
 }
 
 .htf-item-data-image {
-    margin: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     width: 100%;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .htf-item-data-image img {
@@ -61,6 +61,6 @@ b {
 }
 
 .htf-item-note {
-    margin: 0.25rem;
+    margin: 0.5rem;
     text-align: center;
 }
