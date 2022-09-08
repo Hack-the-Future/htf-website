@@ -4,4 +4,4 @@ permalink: /apply/
 layout: single
 ---
 
-Applications are no longer open at this time.
+Applications are not open at this time.
