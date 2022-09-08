@@ -4,4 +4,4 @@ permalink: /apply/
 layout: single
 ---
 
-Applications are not open at this time.
+Applications have closed for fall 2022.
