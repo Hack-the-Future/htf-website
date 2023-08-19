@@ -1,3 +1,22 @@
+- id: wabash-trust
+  year: 2022
+  nonprofit: wabash-trust
+  name: Wabash Trust Interactive Map
+  website: http://www.wabashvalleytrust.comcastbiz.net/
+  description: 
+    Wabash Valley Trust was excited to work with us to develop an interactive map of 
+    historical buildings in Lafayette. This map, designed to feel like an old paper 
+    map, shows detailed information of each building and even has a timeline to show 
+    when buildings were built.
+- id: lcwe-site
+  year: 2022
+  nonprofit: lcwe
+  name: Latino Center for Wellness and Education Website
+  website: https://lcwe-site.htfpurdue.org/
+  description: 
+    The Latino Cultural Center for Wellness & Education was in need of a new website. 
+    It was requested that we build them a new site with a focus on modernizing the 
+    design and ensuring navigation was consistent whether viewed in Spanish or English.
 - id: lthc-housing-crisis-portal
   year: 2021
   nonprofit: lthc

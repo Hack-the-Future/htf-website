@@ -41,3 +41,16 @@
     Leadership Lafayette is a local nonprofit that mentors individuals through
     experiential learning and community engagement to promote servant
     leadership.
+- id: lcwe
+  name: Latino Center for Wellness and Education
+  website: https://www.lcwelafayette.com/
+  description:
+    The Latino Center of Wellness and Education (LCWE) encourages community involvement 
+    and integration. Their goal is to improve the lives of all people in the Greater Lafayette 
+    area while promoting our Latinx and Hispanic culture. 
+- id: wabash-trust
+  name: Wabash Valley Trust for Historic Preservation
+  website: http://www.wabashvalleytrust.comcastbiz.net/
+  description:
+    The Wabash Valley Trust for Historic Preservation promotes historic preservation 
+    through restoration and visibility of the architectural heritage of our community.
